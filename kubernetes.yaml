@@ -9,7 +9,7 @@ spec:
     app: oraclequoteproject
   type: NodePort
   ports:
-    - port: 3000
+    - port: 3002
       nodePort: 32640
 
 #  clusterIP: None
@@ -44,7 +44,7 @@ spec:
         - name: oraclequoteproject
           image: iad.ocir.io/idavixsf5sbx/cristianohoshikawa/oraclequoteproject:latest
           ports:
-            - containerPort: 3000
+            - containerPort: 3002
       imagePullSecrets:
         # enter the name of the secret you created
         - name: ocirsecret

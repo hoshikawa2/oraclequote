@@ -7,7 +7,7 @@ spec:
     istio: ingressgateway # use Istio default gateway implementation
   servers:
     - port:
-        number: 3000
+        number: 3002
         name: redis
         protocol: TCP
       hosts:
@@ -24,9 +24,9 @@ spec:
     - oraclequote-gateway
   tcp:
     - match:
-        - port: 3000
+        - port: 3002
       route:
         - destination:
             port:
-              number: 3000
+              number: 3002
             host: oraclequoteproject-service
