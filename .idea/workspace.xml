@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd3cc071-f421-4e37-9c3c-b0e9a0d151d9" name="Default Changelist" comment="primeiro upload" />
+    <list default="true" id="fd3cc071-f421-4e37-9c3c-b0e9a0d151d9" name="Default Changelist" comment="acerto do build">
+      <change afterPath="$PROJECT_DIR$/ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,7 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jN8LJNafF1qw6qojwlCkPgugEq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,6 +44,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.19.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -38,7 +62,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603633131390</updated>
-      <workItem from="1603633132434" duration="356000" />
+      <workItem from="1603633132434" duration="424000" />
+      <workItem from="1603633718008" duration="97000" />
+      <workItem from="1603633829530" duration="5000" />
+      <workItem from="1603634019236" duration="162000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro upload">
       <created>1603633296257</created>
@@ -47,24 +74,59 @@
       <option name="project" value="LOCAL" />
       <updated>1603633296257</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="acerto do build">
+      <created>1603633519292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603633519292</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeiro upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="primeiro upload" />
+    <MESSAGE value="acerto do build" />
+    <option name="LAST_COMMIT_MESSAGE" value="acerto do build" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603633498834">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="360" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1603633498834" />
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1603633362169">
+    <state width="1379" height="271" key="GridCell.Tab.0.bottom" timestamp="1603633567731">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603633362169" />
+    <state width="1379" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1603633567731" />
+    <state width="1379" height="271" key="GridCell.Tab.0.center" timestamp="1603633567730">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1379" height="271" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1603633567730" />
+    <state width="1379" height="271" key="GridCell.Tab.0.left" timestamp="1603633567730">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1379" height="271" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1603633567730" />
+    <state width="1379" height="271" key="GridCell.Tab.0.right" timestamp="1603633567731">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1379" height="271" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1603633567731" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1603633523816">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603633523816" />
   </component>
 </project>
