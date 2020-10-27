@@ -40,6 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.19.0" />
@@ -67,7 +68,7 @@
       <workItem from="1603633718008" duration="97000" />
       <workItem from="1603633829530" duration="5000" />
       <workItem from="1603634019236" duration="714000" />
-      <workItem from="1603834989851" duration="447000" />
+      <workItem from="1603834989851" duration="1126000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro upload">
       <created>1603633296257</created>
@@ -97,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603634576002</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ajuste para diminuir o payload">
+      <created>1603835498510</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603835498510</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Formador de frase no OIC">
+      <created>1603836195753</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603836195753</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,39 +131,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="primeiro upload" />
     <MESSAGE value="acerto do build" />
     <MESSAGE value="acerto de porta" />
-    <option name="LAST_COMMIT_MESSAGE" value="acerto de porta" />
+    <MESSAGE value="Ajuste para diminuir o payload" />
+    <MESSAGE value="Formador de frase no OIC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formador de frase no OIC" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603633498834">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="360" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1603633498834" />
-    <state width="1379" height="271" key="GridCell.Tab.0.bottom" timestamp="1603835367485">
+    <state width="1379" height="271" key="GridCell.Tab.0.bottom" timestamp="1603836706929">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1603835367485" />
-    <state width="1379" height="271" key="GridCell.Tab.0.center" timestamp="1603835367484">
+    <state width="1379" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1603836706929" />
+    <state width="1379" height="271" key="GridCell.Tab.0.center" timestamp="1603836706928">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1603835367484" />
-    <state width="1379" height="271" key="GridCell.Tab.0.left" timestamp="1603835367484">
+    <state width="1379" height="271" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1603836706928" />
+    <state width="1379" height="271" key="GridCell.Tab.0.left" timestamp="1603836706928">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1603835367484" />
-    <state width="1379" height="271" key="GridCell.Tab.0.right" timestamp="1603835367484">
+    <state width="1379" height="271" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1603836706928" />
+    <state width="1379" height="271" key="GridCell.Tab.0.right" timestamp="1603836706929">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1603835367484" />
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1603634579415">
+    <state width="1379" height="271" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1603836706929" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1603836210872">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603634579415" />
-    <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603634559488">
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603836210872" />
+    <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603835597148">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603634559488" />
+    <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603835597148" />
   </component>
 </project>
