@@ -11,9 +11,9 @@ router.get('/oracle', function (req, res, next) {
 
         //res.send(CircularJSON.stringify(resposta.data[0]));
 
-        res.send(CircularJSON.stringify({"Nome": resposta.data[0].longName,
+        res.send({"Nome": resposta.data[0].longName,
             "regularMarketPrice": resposta.data[0].regularMarketPrice.toString(),
-            "symbol": resposta.data[0].symbol}));
+            "symbol": resposta.data[0].symbol});
         res.end();
         console.log(resposta.data[0].longName);
         //console.log(resposta.data[0].regularMarketPrice)
