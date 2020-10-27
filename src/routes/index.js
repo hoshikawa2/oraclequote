@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const axios = require("axios");
-const CircularJSON = require('circular-json');
 
 /* GET Oracle Quote */
 router.get('/oracle', function (req, res, next) {
