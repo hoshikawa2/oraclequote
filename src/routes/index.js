@@ -9,9 +9,15 @@ router.get('/oracle', function (req, res, next) {
 
     axios.get(url).then(function(resposta) {
 
-        res.send(CircularJSON.stringify(resposta));
+        //res.send(CircularJSON.stringify(resposta.data[0]));
+
+        res.send(CircularJSON.stringify({"Nome": resposta.data[0].longName,
+            "regularMarketPrice": resposta.data[0].regularMarketPrice,
+            "symbol": resposta.data[0].symbol}));
         res.end();
         console.log(resposta.data[0].longName);
+        console.log(resposta.data[0].regularMarketPrice)
+        console.log(resposta.data[0].symbol)
 
     })
 

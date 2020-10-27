@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd3cc071-f421-4e37-9c3c-b0e9a0d151d9" name="Default Changelist" comment="acerto do build">
+    <list default="true" id="fd3cc071-f421-4e37-9c3c-b0e9a0d151d9" name="Default Changelist" comment="acerto de porta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ingress.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +47,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -68,7 +66,8 @@
       <workItem from="1603633132434" duration="424000" />
       <workItem from="1603633718008" duration="97000" />
       <workItem from="1603633829530" duration="5000" />
-      <workItem from="1603634019236" duration="401000" />
+      <workItem from="1603634019236" duration="714000" />
+      <workItem from="1603834989851" duration="447000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro upload">
       <created>1603633296257</created>
@@ -91,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603634208684</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="acerto de porta">
+      <created>1603634576002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603634576002</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,40 +113,42 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeiro upload" />
     <MESSAGE value="acerto do build" />
-    <option name="LAST_COMMIT_MESSAGE" value="acerto do build" />
+    <MESSAGE value="acerto de porta" />
+    <option name="LAST_COMMIT_MESSAGE" value="acerto de porta" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603633498834">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="360" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1603633498834" />
-    <state width="1379" height="271" key="GridCell.Tab.0.bottom" timestamp="1603633567731">
+    <state width="1379" height="271" key="GridCell.Tab.0.bottom" timestamp="1603835367485">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1603633567731" />
-    <state width="1379" height="271" key="GridCell.Tab.0.center" timestamp="1603633567730">
+    <state width="1379" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1603835367485" />
+    <state width="1379" height="271" key="GridCell.Tab.0.center" timestamp="1603835367484">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1603633567730" />
-    <state width="1379" height="271" key="GridCell.Tab.0.left" timestamp="1603633567730">
+    <state width="1379" height="271" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1603835367484" />
+    <state width="1379" height="271" key="GridCell.Tab.0.left" timestamp="1603835367484">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1603633567730" />
-    <state width="1379" height="271" key="GridCell.Tab.0.right" timestamp="1603633567731">
+    <state width="1379" height="271" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1603835367484" />
+    <state width="1379" height="271" key="GridCell.Tab.0.right" timestamp="1603835367484">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1603633567731" />
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1603634213903">
+    <state width="1379" height="271" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1603835367484" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1603634579415">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603634213903" />
-    <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603634195966">
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603634579415" />
+    <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603634559488">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603634195966" />
+    <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603634559488" />
   </component>
 </project>
