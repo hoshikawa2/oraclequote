@@ -16,8 +16,8 @@ router.get('/oracle', function (req, res, next) {
             "symbol": resposta.data[0].symbol}));
         res.end();
         console.log(resposta.data[0].longName);
-        console.log(resposta.data[0].regularMarketPrice)
-        console.log(resposta.data[0].symbol)
+        //console.log(resposta.data[0].regularMarketPrice)
+        //console.log(resposta.data[0].symbol)
 
     })
 
