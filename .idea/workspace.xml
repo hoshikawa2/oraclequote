@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd3cc071-f421-4e37-9c3c-b0e9a0d151d9" name="Default Changelist" comment="acerto para enviar JSON (nao string)">
-      <change afterPath="$PROJECT_DIR$/src/alexa/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/alexa/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,10 @@
       <workItem from="1603633829530" duration="5000" />
       <workItem from="1603634019236" duration="714000" />
       <workItem from="1603834989851" duration="3220000" />
-      <workItem from="1603916309316" duration="473000" />
+      <workItem from="1603916309316" duration="596000" />
+      <workItem from="1604145080864" duration="62000" />
+      <workItem from="1604255264886" duration="73000" />
+      <workItem from="1604334836078" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro upload">
       <created>1603633296257</created>
@@ -157,7 +159,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603917008420</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Inclusao do pacote da Alexa">
+      <created>1603917204725</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603917204725</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Inclusao do pacote da Alexa">
+      <created>1603917395626</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603917395626</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,33 +202,34 @@
     <MESSAGE value="acerto de conversao para string" />
     <MESSAGE value="acerto para enviar JSON (nao string)" />
     <MESSAGE value="ajustes finais" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajustes finais" />
+    <MESSAGE value="Inclusao do pacote da Alexa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inclusao do pacote da Alexa" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603633498834">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="360" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1603633498834" />
-    <state width="1379" height="271" key="GridCell.Tab.0.bottom" timestamp="1603847545700">
+    <state width="1379" height="271" key="GridCell.Tab.0.bottom" timestamp="1604145142275">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1603847545700" />
-    <state width="1379" height="271" key="GridCell.Tab.0.center" timestamp="1603847545699">
+    <state width="1379" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1604145142275" />
+    <state width="1379" height="271" key="GridCell.Tab.0.center" timestamp="1604145142274">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1603847545699" />
-    <state width="1379" height="271" key="GridCell.Tab.0.left" timestamp="1603847545699">
+    <state width="1379" height="271" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1604145142274" />
+    <state width="1379" height="271" key="GridCell.Tab.0.left" timestamp="1604145142274">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1603847545699" />
-    <state width="1379" height="271" key="GridCell.Tab.0.right" timestamp="1603847545699">
+    <state width="1379" height="271" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1604145142274" />
+    <state width="1379" height="271" key="GridCell.Tab.0.right" timestamp="1604145142274">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1379" height="271" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1603847545699" />
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1603917017645">
+    <state width="1379" height="271" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1604145142274" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1603917402406">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603917017645" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603917402406" />
     <state x="694" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603847220164">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
